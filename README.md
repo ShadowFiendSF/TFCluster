@@ -10,7 +10,7 @@ There's only one function for user to fulfill his/her goal:
 
 	main(yourMemeFile, yourTomtomFile [,yourResultFile] [,Numclusters=300] [,cuttreeThreshold="75%"] [,BackgroundAFreq=0.25]
 			[,BackgroundTFreq=0.25] [,BackgroundCFreq=0.25] [,BackgroundGFreq=0.25])
-e.g.
+#e.g.
 	TFCluster::main("all.meme","tomtom.txt")
-for testing it, just run:
+#for testing it, just run:
 	testit()
