@@ -120,7 +120,7 @@ testit<-function()
 	}
 	message(paste("The number of TF: ", total,"!",sep=""))
 	close(con)
-#	unlink("result.meme")
+	unlink("result.meme")
 	if(total == get("sum", envir=localE))
 	   	message("Pass the test!")
 	else 
