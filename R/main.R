@@ -116,9 +116,13 @@ testit<-function()
 	total <- 0
 	while(length(oneLine<-readLines(con, n=1))>0)
 	{
-		if(grepl("^MOTIF\\.*", oneLine, perl=T)) total <<- total + 1
+		if(grepl("^MOTIF\\.*", oneLine, perl=T)) total <- total + 1
 	}
-	ifelse(total == get("sum", envir = localE), message("Pass the test!"), stop("Test failed!"))
+	message(paste("The number of TF: ", total,"!",sep=""))
+	close(con)
+#	unlink("result.meme")
+	if(total == get("sum", envir=localE))
+	   	message("Pass the test!")
+	else 
+		stop("Test failed!")
 }
-
-
