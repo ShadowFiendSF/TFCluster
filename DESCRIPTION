@@ -1,12 +1,11 @@
 Package: TFCluster
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Eliminating redundant motif
 Version: 1.0
 Date: 2017-11-25
 Author: Ryan Lee
 Maintainer: Ryan Lee <lzh625107729@email.com>
-Description: One paragraph description of what the package does as one
-        or more full sentences.
+Description: This library was used for eliminating redundant motif.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.13)
 LinkingTo: Rcpp
