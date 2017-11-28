@@ -61,8 +61,8 @@ parseMeme<-function(filename)
 						{
 							if(dim(pwm)[1]!= numrow | dim(pwm)[2]!= numcol)
 							{
-								stop("parse error or file incompleted!")
 								close(con)
+								stop("parse error or file incompleted!")
 							}
 							result[[motif]]<-pwm
 							break
