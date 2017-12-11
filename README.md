@@ -1,6 +1,6 @@
 # TFCluster
 
-This library was used for eliminating redundant motif.
+This library was used for eliminating redundant motif based by the relative entropy.
 
 This version was optimized by using Rcpp and was desinged for user friendly.
 
